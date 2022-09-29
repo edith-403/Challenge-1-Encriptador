@@ -22,4 +22,4 @@ Por ejemplo:
 
 - La página tiene campos para 
 inserción del texto que será encriptado o desencriptado, y el usuario puede escoger entre las dos opciones.
-- El resultado debe ser mostrado en la pantalla.
+- El resultado se muestra en pantalla.
