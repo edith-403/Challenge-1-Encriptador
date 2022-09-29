@@ -1,0 +1,84 @@
+*{
+    font-family: "Abyssinica SIL", serif;
+    font-weight: 50;
+    font-size: 32px;
+    line-height: 150%;
+  }
+  
+  body {
+    background: linear-gradient(45deg, red, blue)  }
+  
+  main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+  }
+  
+  .input-texto {
+    margin-top: 90px;
+    border-radius: 10px;
+    border-width: 5px;
+  }
+  
+  .mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 10px;
+    border-width: 5px;
+  }
+  
+  .copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+    border-radius: 10px;
+    font-family: "Abyssinica SIL", serif;
+  }
+  .copiar:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: red;
+  }
+  
+  .botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  .encriptar {
+    color: black;
+    border-radius: 10px;
+    font-family: "Abyssinica SIL", serif;
+  }
+  .encriptar:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background: darkblue;
+  }
+  .desencriptar {
+    margin-left: 30px;
+    border-radius: 10px;
+    font-family: "Abyssinica SIL", serif;
+  }
+  .desencriptar:hover {
+    background: blue;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+  .informacion {
+    font-size: 15px;
+  }
+
+  footer {
+    display: flex;
+    font-size: medium;
+    justify-content: flex-start;
+    font-weight: bold;
+  }
